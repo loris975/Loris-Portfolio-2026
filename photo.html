@@ -1,6 +1,367 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Photography archive of Loris Dayoub."><title>Photography — Loris Dayoub</title><link rel="stylesheet" href="style.css"></head><body>
-<header class="site-header"><div class="header-inner"><a class="brand" href="index.html">LORIS<span>DAYOUB.</span></a><button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav" id="siteNav"><a href="index.html#home">Home</a><a href="index.html#showreel">Showreel</a><a href="index.html#work">Selected Work</a><a href="Articles.html">Journalism</a><a href="index.html#about">About</a><a class="nav-cta" href="index.html#contact">Let's Talk</a></nav></div></header>
-<main><section class="inner-hero"><div class="container"><div class="section-kicker">Photography archive</div><h1>Moments beyond<br><em style="color:var(--accent)">the frame.</em></h1><p>Behind-the-scenes moments, portraits and photographs from productions, events and encounters. Select an image to view it larger.</p></div></section>
-<section class="section" style="padding-top:45px"><div class="container"><div class="photo-grid"><img src="photo/07112007.jpg" alt="Photography archive — 07112007" loading="lazy"><img src="photo/11012008(001).jpg" alt="Photography archive — 11012008(001)" loading="lazy"><img src="photo/11012008(004).jpg" alt="Photography archive — 11012008(004)" loading="lazy"><img src="photo/11012008(005).jpg" alt="Photography archive — 11012008(005)" loading="lazy"><img src="photo/11012008.jpg" alt="Photography archive — 11012008" loading="lazy"><img src="photo/20070823510.jpg" alt="Photography archive — 20070823510" loading="lazy"><img src="photo/20070823525.jpg" alt="Photography archive — 20070823525" loading="lazy"><img src="photo/20071101628.jpg" alt="Photography archive — 20071101628" loading="lazy"><img src="photo/24102007(001).jpg" alt="Photography archive — 24102007(001)" loading="lazy"><img src="photo/24102007.jpg" alt="Photography archive — 24102007" loading="lazy"><img src="photo/26022008(001).jpg" alt="Photography archive — 26022008(001)" loading="lazy"><img src="photo/26022008(002).jpg" alt="Photography archive — 26022008(002)" loading="lazy"><img src="photo/26022008(005).jpg" alt="Photography archive — 26022008(005)" loading="lazy"><img src="photo/26022008.jpg" alt="Photography archive — 26022008" loading="lazy"><img src="photo/27022008(003).jpg" alt="Photography archive — 27022008(003)" loading="lazy"><img src="photo/27022008.jpg" alt="Photography archive — 27022008" loading="lazy"><img src="photo/29102007.jpg" alt="Photography archive — 29102007" loading="lazy"><img src="photo/30102007.jpg" alt="Photography archive — 30102007" loading="lazy"><img src="photo/Image000.jpg" alt="Photography archive — Image000" loading="lazy"><img src="photo/Image002.jpg" alt="Photography archive — Image002" loading="lazy"><img src="photo/Image410.jpg" alt="Photography archive — Image410" loading="lazy"><img src="photo/LORIS WITH DIANA HADAD.jpg" alt="Photography archive — LORIS WITH DIANA HADAD" loading="lazy"><img src="photo/Untitled-2 copy 3.jpg" alt="Photography archive — Untitled-2 copy 3" loading="lazy"><img src="photo/Untitled-2 copy.jpg" alt="Photography archive — Untitled-2 copy" loading="lazy"><img src="photo/Untitled-2.jpg" alt="Photography archive — Untitled-2" loading="lazy"><img src="photo/Untitled-21.jpg" alt="Photography archive — Untitled-21" loading="lazy"><img src="photo/Untitled-23.jpg" alt="Photography archive — Untitled-23" loading="lazy"></div></div></section></main>
-<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Expanded photograph"><button id="lightboxClose" aria-label="Close image">×</button><img id="lightboxImage" alt="Expanded photograph"></div>
-<footer class="site-footer"><div class="footer-inner"><div class="footer-brand">LORIS<span>DAYOUB.</span></div><a class="footer-note" href="index.html">Back to portfolio ↑</a><div class="footer-note">© <span id="year"></span> Loris Dayoub</div></div></footer><script src="script.js"></script></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Photography archive of Loris Dayoub."
+    >
+
+    <title>Photography — Loris Dayoub</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==========================================
+         HEADER / NAVIGATION
+    =========================================== -->
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <!-- Logo -->
+            <a class="brand" href="index.html">
+                LORIS<span>DAYOUB.</span>
+            </a>
+
+            <!-- Mobile menu button -->
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <!-- Navigation links -->
+            <nav class="nav" id="siteNav">
+
+                <a href="index.html#home">Home</a>
+                <a href="index.html#showreel">Showreel</a>
+                <a href="index.html#work">Selected Work</a>
+                <a href="Articles.html">Journalism</a>
+                <a href="index.html#about">About</a>
+
+                <a class="nav-cta" href="index.html#contact">
+                    Let's Talk
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==========================================
+         MAIN CONTENT
+    =========================================== -->
+
+    <main>
+
+        <!-- ======================================
+             PHOTOGRAPHY HERO
+        ======================================= -->
+
+        <section class="inner-hero">
+
+            <div class="container">
+
+                <div class="section-kicker">
+                    Photography archive
+                </div>
+
+                <h1>
+                    Moments beyond<br>
+                    <em style="color: var(--accent);">
+                        the frame.
+                    </em>
+                </h1>
+
+                <p>
+                    Behind-the-scenes moments, portraits and photographs
+                    from productions, events and encounters.
+                    Select an image to view it larger.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================================
+             PHOTOGRAPHY GALLERY
+
+             TO ADD A PHOTO:
+             1. Place the image inside the photo folder.
+             2. Copy one of the image elements below.
+             3. Change the filename and alt text.
+
+        ======================================= -->
+
+        <section class="section" style="padding-top: 45px;">
+
+            <div class="container">
+
+                <div class="photo-grid">
+
+
+                    <!-- PHOTO 01 -->
+                    <img
+                        src="photo/07112007.jpg"
+                        alt="Photography archive — 07112007"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 02 -->
+                    <img
+                        src="photo/11012008(001).jpg"
+                        alt="Photography archive — 11012008(001)"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 03 -->
+                    <img
+                        src="photo/11012008(004).jpg"
+                        alt="Photography archive — 11012008(004)"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 04 -->
+                    <img
+                        src="photo/11012008(005).jpg"
+                        alt="Photography archive — 11012008(005)"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 05 -->
+                    <img
+                        src="photo/11012008.jpg"
+                        alt="Photography archive — 11012008"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 06 -->
+                    <img
+                        src="photo/20070823510.jpg"
+                        alt="Photography archive — 20070823510"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 07 -->
+                    <img
+                        src="photo/20070823525.jpg"
+                        alt="Photography archive — 20070823525"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 08 -->
+                    <img
+                        src="photo/20071101628.jpg"
+                        alt="Photography archive — 20071101628"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 09 -->
+                    <img
+                        src="photo/24102007(001).jpg"
+                        alt="Photography archive — 24102007(001)"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 10 -->
+                    <img
+                        src="photo/24102007.jpg"
+                        alt="Photography archive — 24102007"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 11 -->
+                    <img
+                        src="photo/26022008(001).jpg"
+                        alt="Photography archive — 26022008(001)"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 12 -->
+                    <img
+                        src="photo/26022008(002).jpg"
+                        alt="Photography archive — 26022008(002)"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 13 -->
+                    <img
+                        src="photo/26022008(005).jpg"
+                        alt="Photography archive — 26022008(005)"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 14 -->
+                    <img
+                        src="photo/26022008.jpg"
+                        alt="Photography archive — 26022008"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 15 -->
+                    <img
+                        src="photo/27022008(003).jpg"
+                        alt="Photography archive — 27022008(003)"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 16 -->
+                    <img
+                        src="photo/27022008.jpg"
+                        alt="Photography archive — 27022008"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 17 -->
+                    <img
+                        src="photo/29102007.jpg"
+                        alt="Photography archive — 29102007"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 18 -->
+                    <img
+                        src="photo/30102007.jpg"
+                        alt="Photography archive — 30102007"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 19 -->
+                    <img
+                        src="photo/Image000.jpg"
+                        alt="Photography archive — Image000"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 20 -->
+                    <img
+                        src="photo/Image002.jpg"
+                        alt="Photography archive — Image002"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 21 -->
+                    <img
+                        src="photo/Image410.jpg"
+                        alt="Photography archive — Image410"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 22 -->
+                    <img
+                        src="photo/LORIS WITH DIANA HADAD.jpg"
+                        alt="Loris with Diana Hadad"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 23 -->
+                    <img
+                        src="photo/Untitled-2 copy 3.jpg"
+                        alt="Photography archive — Untitled-2 copy 3"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 24 -->
+                    <img
+                        src="photo/Untitled-2 copy.jpg"
+                        alt="Photography archive — Untitled-2 copy"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 25 -->
+                    <img
+                        src="photo/Untitled-2.jpg"
+                        alt="Photography archive — Untitled-2"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 26 -->
+                    <img
+                        src="photo/Untitled-21.jpg"
+                        alt="Photography archive — Untitled-21"
+                        loading="lazy"
+                    >
+
+                    <!-- PHOTO 27 -->
+                    <img
+                        src="photo/Untitled-23.jpg"
+                        alt="Photography archive — Untitled-23"
+                        loading="lazy"
+                    >
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==========================================
+         IMAGE LIGHTBOX
+
+         JavaScript uses these IDs to display
+         photographs in an expanded view.
+    =========================================== -->
+
+    <div
+        class="lightbox"
+        id="lightbox"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Expanded photograph"
+    >
+        <button
+            id="lightboxClose"
+            aria-label="Close image"
+        >
+            ×
+        </button>
+        <img
+            id="lightboxImage"
+            alt="Expanded photograph"
+        >
+    </div>
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <!-- Footer logo -->
+            <div class="footer-brand">
+                LORIS<span>DAYOUB.</span>
+            </div>
+            <!-- Back to homepage -->
+            <a class="footer-note" href="index.html">
+                Back to portfolio ↑
+            </a>
+            <!-- Copyright -->
+            <div class="footer-note">
+                © <span id="year"></span> Loris Dayoub
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         JAVASCRIPT
+    =========================================== -->
+
+    <script src="script.js"></script>
+</body>
+</html>
